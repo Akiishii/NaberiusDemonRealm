@@ -1,0 +1,74 @@
+{b}New Tool Age - The Manual
+Table of contents:
+{l:general}Starting with New Tool Age
+{l:tiers}Tool Types
+{l:ores}Ore Types
+{l:ingots}Ingot Types
+{l:hforge}Hellfire Forge
+{l:enchant}Enchantments
+{/}
+{l:}
+{l:}
+{l:mobs}Enemies
+{l:dim}Dimension
+{l:cmd}Commands
+{-------------------------------------------------------------}
+{b}Starting with New Tool Age
+{n:general}
+New Tool Age was only supposed to be a tool mod for Minecraft
+1.10.2 but now after a few days of thinking it materialized as
+a mod with huge potential.
+ 
+It contains its own dimension called the Demon Realm, the only
+place besides the Demon biome where Demons which drop Demon Flesh
+can be found.
+{-------------------------------------------------------------}
+{b}Tool Types
+{n:tiers}
+
+{-------------------------------------------------------------}
+{b}Ore Types
+{n:ores}
+New Tool Age has several types of Ores. 
+{-------------------------------------------------------------}
+{b}Ingot Types
+{n:ingots}
+
+{-------------------------------------------------------------}
+{b}Hellfire Forge
+{n:hforge}
+The Hell Forge is used to craft the ultimate type of ingot in New Tool Age.
+The Demonic Ingots are the highest obtainable tier of NTA material. 
+Tools crafted with them are unbreakable and any such sword acquires the 
+enchantment Devourer.
+{-------------------------------------------------------------}
+{b}Enchantments
+{n:enchant}
+Auto-Smelt:
+If a pickaxe or an axe is enchanted with Auto-Smelt every block you break 
+gets smelted into the equivalent item; e.g. if iron ore is mined with a 
+pickaxe that has Auto-Smelt on it, it will be smelted into an iron ingot.
+
+Devourer:
+The Devourer enchantment causes an entity killed with an enchanted sword
+to drop its soul. You can devour the soul to receive different types of 
+effect like poisonous damage, speed boost, strength and many more.
+{-------------------------------------------------------------}
+{b}Enemies
+{n:mobs}
+The Demon is the only enemy you will encounter in the mod. It has 
+20 hearts and is faster than any hostile entity you have faced up to now.
+{-------------------------------------------------------------}
+{b}Dimension
+{n:dim}
+The Demon Realm is a dimension that differs from other dimensions you've 
+travelled to before. This is your only warning. Prepare yourself before 
+entering.
+{-------------------------------------------------------------}
+{b}Commands
+{n:cmd}
+The Teleport Command is used to switch between the Demon Realm and the
+Overworld. Usage:
+    /tp <id>
+where id is the dimension ID.
+{-------------------------------------------------------------}
