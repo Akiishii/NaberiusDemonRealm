@@ -68,7 +68,7 @@ item.naberius:core.7.name=Silver Core
 
 item.naberius:demon_flesh.name=Demon Flesh
 
-item.naberius:manual.name=NTA Manual
+item.naberius:manual.name=Naberius Manual
 
 item.naberius:backpack.0.name=White Backpack
 item.naberius:backpack.1.name=Green Backpack
@@ -84,7 +84,7 @@ item.naberius:backpack.10.name=Light Blue Backpack
 item.naberius:backpack.11.name=Light Gray Backpack
 item.naberius:backpack.12.name=Purple Backpack
 item.naberius:backpack.13.name=Cyan Backpack
-item.naberius:backpack.14.name=Magenaberius Backpack
+item.naberius:backpack.14.name=Magenta Backpack
 
 //Tools
 item.naberius:titanium_axe.name=Titanium Axe

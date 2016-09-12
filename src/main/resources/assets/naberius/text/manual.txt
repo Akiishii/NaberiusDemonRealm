@@ -1,6 +1,6 @@
-{b}Naberius - The Demon Realm - The Manual
+{b}Naberiua - The Manual
 Table of contents:
-{l:general}Starting with Naberius - The Demon Realm
+{l:general}Starting with Naberius
 {l:tiers}Tool Types
 {l:ores}Ore Types
 {l:ingots}Ingot Types

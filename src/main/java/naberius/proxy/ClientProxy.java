@@ -61,7 +61,7 @@ public class ClientProxy extends CommonProxy{
 				new ResourceLocation("naberius:backpack_light_gray"),
 				new ResourceLocation("naberius:backpack_purple"),
 				new ResourceLocation("naberius:backpack_cyan"),
-				new ResourceLocation("naberius:backpack_magenaberius")
+				new ResourceLocation("naberius:backpack_magenta")
 		);
 		
 		ModelBakery.registerItemVariants(ModItems.NUGGET,
@@ -122,7 +122,7 @@ public class ClientProxy extends CommonProxy{
 		ModelLoader.setCustomModelResourceLocation(ModItems.BACKPACK, ItemBackpack.LIGHT_GRAY_BACKPACK, new ModelResourceLocation("naberius:backpack_light_gray", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(ModItems.BACKPACK, ItemBackpack.PURPLE_BACKPACK, new ModelResourceLocation("naberius:backpack_purple", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(ModItems.BACKPACK, ItemBackpack.CYAN_BACKPACK, new ModelResourceLocation("naberius:backpack_cyan", "inventory"));
-		ModelLoader.setCustomModelResourceLocation(ModItems.BACKPACK, ItemBackpack.MAGENTA_BACKPACK, new ModelResourceLocation("naberius:backpack_magenaberius", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ModItems.BACKPACK, ItemBackpack.MAGENTA_BACKPACK, new ModelResourceLocation("naberius:backpack_magenta", "inventory"));
 		
 		ModelLoader.setCustomModelResourceLocation(ModItems.DEMON_FLESH, 0, new ModelResourceLocation("naberius:demon_flesh", "inventory"));
 		

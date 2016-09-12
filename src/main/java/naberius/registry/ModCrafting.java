@@ -1,6 +1,7 @@
 package naberius.registry;
 
 import naberius.item.ItemIngot;
+import naberius.item.ItemNugget;
 import net.minecraft.init.Enchantments;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -8,7 +9,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModCrafting {
 
-	public static void init() {
+	public static void init(){
+		
+		crafting();
+		smelting();
+		
+	}
+	
+	private static void crafting() {
 
 		// Titanium
 		ItemStack titanium_axe = new ItemStack(ModItems.TITANIUM_AXE);
@@ -159,6 +167,17 @@ public class ModCrafting {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.METAL_COPPER), "III", "III", "III", 'I', new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_COPPER));
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.METAL_TIN), "III", "III", "III", 'I', new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TIN));
 		
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TITANIUM), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_TITANIUM));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_VIBRANIUM), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_VIBRANIUM));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_ADAMANTIUM), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemIngot.INGOT_ADAMANTIUM));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_SIRIUM), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_SIRIUM));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_DEMONIC), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_DEMON));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_SILVER), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_SILVER));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_STEEL), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_STEEL));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_BRONZE), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_BRONZE));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_COPPER), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_COPPER));
+		GameRegistry.addRecipe(new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TIN), "III", "III", "III", 'I', new ItemStack(ModItems.NUGGET, 1, ItemNugget.NUGGET_TIN));
+		
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.INGOT, 9, ItemIngot.INGOT_TITANIUM), new ItemStack(ModBlocks.METAL_TITANIUM));
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.INGOT, 9, ItemIngot.INGOT_VIBRANIUM), new ItemStack(ModBlocks.METAL_VIBRANIUM));
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.INGOT, 9, ItemIngot.INGOT_ADAMANTIUM), new ItemStack(ModBlocks.METAL_ADAMANTIUM));
@@ -171,6 +190,29 @@ public class ModCrafting {
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.INGOT, 9, ItemIngot.INGOT_TIN), new ItemStack(ModBlocks.METAL_TIN));
 		
 		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.INGOT, 4, ItemIngot.INGOT_BRONZE), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_COPPER), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_COPPER), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_COPPER), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TIN));
+	
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_TITANIUM), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TITANIUM));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_VIBRANIUM), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_VIBRANIUM));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_ADAMANTIUM), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_ADAMANTIUM));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_SIRIUM), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_SIRIUM));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_DEMON), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_DEMONIC));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_SILVER), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_SILVER));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_STEEL), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_STEEL));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_BRONZE), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_BRONZE));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_COPPER), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_COPPER));
+		GameRegistry.addShapelessRecipe(new ItemStack(ModItems.NUGGET, 9, ItemNugget.NUGGET_TIN), new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TIN));
 	}
 
+	private static void smelting(){
+		
+		GameRegistry.addSmelting(ModBlocks.ORE_TITANIUM, new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TITANIUM), 0.1F);
+		GameRegistry.addSmelting(ModBlocks.ORE_VIBRANIUM, new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_VIBRANIUM), 0.1F);
+		GameRegistry.addSmelting(ModBlocks.ORE_ADAMANTIUM, new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_ADAMANTIUM), 0.1F);
+		GameRegistry.addSmelting(ModBlocks.ORE_SIRIUM, new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_SIRIUM), 0.1F);
+		GameRegistry.addSmelting(ModBlocks.ORE_SILVER, new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_SILVER), 0.1F);
+		GameRegistry.addSmelting(ModBlocks.ORE_COPPER, new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_COPPER), 0.1F);
+		GameRegistry.addSmelting(ModBlocks.ORE_TIN, new ItemStack(ModItems.INGOT, 1, ItemIngot.INGOT_TIN), 0.1F);
+		
+	}
+	
 }
