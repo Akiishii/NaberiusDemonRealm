@@ -1,6 +1,6 @@
-{b}New Tool Age - The Manual
+{b}Naberius - The Demon Realm - The Manual
 Table of contents:
-{l:general}Starting with New Tool Age
+{l:general}Starting with Naberius - The Demon Realm
 {l:tiers}Tool Types
 {l:ores}Ore Types
 {l:ingots}Ingot Types
@@ -13,11 +13,11 @@ Table of contents:
 {l:dim}Dimension
 {l:cmd}Commands
 {-------------------------------------------------------------}
-{b}Starting with New Tool Age
+{b}Starting with Naberius - The Demon Realm
 {n:general}
-New Tool Age was only supposed to be a tool mod for Minecraft
-1.10.2 but now after a few days of thinking it materialized as
-a mod with huge potential.
+Naberius - The Demon Realm was only supposed to be a tool mod 
+for Minecraft 1.10.2 but now after a few days of thinking it 
+materialized as a mod with huge potential.
  
 It contains its own dimension called the Demon Realm, the only
 place besides the Demon biome where Demons which drop Demon Flesh
@@ -29,7 +29,7 @@ can be found.
 {-------------------------------------------------------------}
 {b}Ore Types
 {n:ores}
-New Tool Age has several types of Ores. 
+Naberius - The Demon Realm has several types of Ores. 
 {-------------------------------------------------------------}
 {b}Ingot Types
 {n:ingots}
@@ -38,7 +38,7 @@ New Tool Age has several types of Ores.
 {b}Hellfire Forge
 {n:hforge}
 The Hell Forge is used to craft the ultimate type of ingot in New Tool Age.
-The Demonic Ingots are the highest obtainable tier of NTA material. 
+The Demonic Ingots are the highest obtainable tier of Naberiuss' material. 
 Tools crafted with them are unbreakable and any such sword acquires the 
 enchantment Devourer.
 {-------------------------------------------------------------}

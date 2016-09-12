@@ -1,136 +1,136 @@
 //Blocks
 
-block.nta:ore_titanium.name=Rutile Ore
-block.nta:ore_vibranium.name=Vibranium Ore
-block.nta:ore_adamantium.name=Adamantium Ore
-block.nta:ore_sirium.name=Sirium Ore
-block.nta:ore_silver.name=Silver Ore
-block.nta:ore_copper.name=Copper Ore
-block.nta:ore_tin.name=Tin Ore
+block.naberius:ore_titanium.name=Rutile Ore
+block.naberius:ore_vibranium.name=Vibranium Ore
+block.naberius:ore_adamantium.name=Adamantium Ore
+block.naberius:ore_sirium.name=Sirium Ore
+block.naberius:ore_silver.name=Silver Ore
+block.naberius:ore_copper.name=Copper Ore
+block.naberius:ore_tin.name=Tin Ore
 
-block.nta:metal_titanium.name=Block of Titanium
-block.nta:metal_vibranium.name=Block of Vibranium
-block.nta:metal_adamantium.name=Block of Adamantium
-block.nta:metal_sirium.name=Block of Sirium
-block.nta:metal_demon.name=Block of Demon Steel
-block.nta:metal_silver.name=Block of Silver
-block.nta:metal_steel.name=Block of Steel
-block.nta:metal_bronze.name=Block of Bronze
-block.nta:metal_copper.name=Block of Copper
-block.nta:metal_tin.name=Block of Tin
+block.naberius:metal_titanium.name=Block of Titanium
+block.naberius:metal_vibranium.name=Block of Vibranium
+block.naberius:metal_adamantium.name=Block of Adamantium
+block.naberius:metal_sirium.name=Block of Sirium
+block.naberius:metal_demon.name=Block of Demon Steel
+block.naberius:metal_silver.name=Block of Silver
+block.naberius:metal_steel.name=Block of Steel
+block.naberius:metal_bronze.name=Block of Bronze
+block.naberius:metal_copper.name=Block of Copper
+block.naberius:metal_tin.name=Block of Tin
 
-block.nta:block_demon_dirt.name=Demon Dirt
-block.nta:block_demon_stone.name=Demon Stone
+block.naberius:block_demon_dirt.name=Demon Dirt
+block.naberius:block_demon_stone.name=Demon Stone
 
 //Creative Tab
-itemGroup.nta=New Tool Age
+itemGroup.naberius=Naberius - The Demon Realm
 
 //Enchants
 enchantment.autosmelt=Auto Smelt
 enchantment.devourer=Devourer
 
 //Entities
-entity.nta.Demon.name=Demon
+entity.naberius.Demon.name=Demon
 
 //GUI
 
 //Items
-item.nta:ingot.0.name=Titanium Ingot
-item.nta:ingot.1.name=Vibranium Ingot
-item.nta:ingot.2.name=Adamantium Ingot
-item.nta:ingot.3.name=Sirium Ingot
-item.nta:ingot.4.name=Demon-Steel Ingot
-item.nta:ingot.5.name=Steel Ingot
-item.nta:ingot.6.name=Bronze Ingot
-item.nta:ingot.7.name=Silver Ingot
-item.nta:ingot.8.name=Copper Ingot
-item.nta:ingot.9.name=Tin Ingot
+item.naberius:ingot.0.name=Titanium Ingot
+item.naberius:ingot.1.name=Vibranium Ingot
+item.naberius:ingot.2.name=Adamantium Ingot
+item.naberius:ingot.3.name=Sirium Ingot
+item.naberius:ingot.4.name=Demon-Steel Ingot
+item.naberius:ingot.5.name=Steel Ingot
+item.naberius:ingot.6.name=Bronze Ingot
+item.naberius:ingot.7.name=Silver Ingot
+item.naberius:ingot.8.name=Copper Ingot
+item.naberius:ingot.9.name=Tin Ingot
 
-item.nta:nugget.0.name=Titanium Nugget
-item.nta:nugget.1.name=Vibranium Nugget
-item.nta:nugget.2.name=Adamantium Nugget
-item.nta:nugget.3.name=Sirium Nugget
-item.nta:nugget.4.name=Demon-Steel Nugget
-item.nta:nugget.5.name=Silver Nugget
-item.nta:nugget.6.name=Steel Nugget
-item.nta:nugget.7.name=Bronze Nugget
-item.nta:nugget.8.name=Copper Nugget
-item.nta:nugget.9.name=Tin Nugget
+item.naberius:nugget.0.name=Titanium Nugget
+item.naberius:nugget.1.name=Vibranium Nugget
+item.naberius:nugget.2.name=Adamantium Nugget
+item.naberius:nugget.3.name=Sirium Nugget
+item.naberius:nugget.4.name=Demon-Steel Nugget
+item.naberius:nugget.5.name=Silver Nugget
+item.naberius:nugget.6.name=Steel Nugget
+item.naberius:nugget.7.name=Bronze Nugget
+item.naberius:nugget.8.name=Copper Nugget
+item.naberius:nugget.9.name=Tin Nugget
 
-item.nta:core.0.name=Titanium Core
-item.nta:core.1.name=Vibranium Core
-item.nta:core.2.name=Adamantium Core
-item.nta:core.3.name=Sirium Core
-item.nta:core.4.name=Demon-Steel Core
-item.nta:core.5.name=Steel Core
-item.nta:core.6.name=Bronze Core
-item.nta:core.7.name=Silver Core
+item.naberius:core.0.name=Titanium Core
+item.naberius:core.1.name=Vibranium Core
+item.naberius:core.2.name=Adamantium Core
+item.naberius:core.3.name=Sirium Core
+item.naberius:core.4.name=Demon-Steel Core
+item.naberius:core.5.name=Steel Core
+item.naberius:core.6.name=Bronze Core
+item.naberius:core.7.name=Silver Core
 
-item.nta:demon_flesh.name=Demon Flesh
+item.naberius:demon_flesh.name=Demon Flesh
 
-item.nta:manual.name=NTA Manual
+item.naberius:manual.name=NTA Manual
 
-item.nta:backpack.0.name=White Backpack
-item.nta:backpack.1.name=Green Backpack
-item.nta:backpack.2.name=Blue Backpack
-item.nta:backpack.3.name=Lime Backpack
-item.nta:backpack.4.name=Brown Backpack
-item.nta:backpack.5.name=Black Backpack
-item.nta:backpack.6.name=Red Backpack
-item.nta:backpack.7.name=Yellow Backpack
-item.nta:backpack.8.name=Pink Backpack
-item.nta:backpack.9.name=Gray Backpack
-item.nta:backpack.10.name=Light Blue Backpack
-item.nta:backpack.11.name=Light Gray Backpack
-item.nta:backpack.12.name=Purple Backpack
-item.nta:backpack.13.name=Cyan Backpack
-item.nta:backpack.14.name=Magenta Backpack
+item.naberius:backpack.0.name=White Backpack
+item.naberius:backpack.1.name=Green Backpack
+item.naberius:backpack.2.name=Blue Backpack
+item.naberius:backpack.3.name=Lime Backpack
+item.naberius:backpack.4.name=Brown Backpack
+item.naberius:backpack.5.name=Black Backpack
+item.naberius:backpack.6.name=Red Backpack
+item.naberius:backpack.7.name=Yellow Backpack
+item.naberius:backpack.8.name=Pink Backpack
+item.naberius:backpack.9.name=Gray Backpack
+item.naberius:backpack.10.name=Light Blue Backpack
+item.naberius:backpack.11.name=Light Gray Backpack
+item.naberius:backpack.12.name=Purple Backpack
+item.naberius:backpack.13.name=Cyan Backpack
+item.naberius:backpack.14.name=Magenaberius Backpack
 
 //Tools
-item.nta:titanium_axe.name=Titanium Axe
-item.nta:vibranium_axe.name=Vibranium Axe
-item.nta:adamantium_axe.name=Adamantium Axe
-item.nta:sirium_axe.name=Sirium Axe
-item.nta:demonic_axe.name=Demon-Steel Axe
-item.nta:steel_axe.name=Steel Axe
-item.nta:bronze_axe.name=Bronze Axe
-item.nta:silver_axe.name=Silver Axe
+item.naberius:titanium_axe.name=Titanium Axe
+item.naberius:vibranium_axe.name=Vibranium Axe
+item.naberius:adamantium_axe.name=Adamantium Axe
+item.naberius:sirium_axe.name=Sirium Axe
+item.naberius:demonic_axe.name=Demon-Steel Axe
+item.naberius:steel_axe.name=Steel Axe
+item.naberius:bronze_axe.name=Bronze Axe
+item.naberius:silver_axe.name=Silver Axe
 
-item.nta:titanium_hoe.name=Titanium Hoe
-item.nta:vibranium_hoe.name=Vibranium Hoe
-item.nta:adamantium_hoe.name=Adamantium Hoe
-item.nta:sirium_hoe.name=Sirium Hoe
-item.nta:demonic_hoe.name=Demon-Steel Hoe
-item.nta:steel_hoe.name=Steel Hoe
-item.nta:bronze_hoe.name=Bronze Hoe
-item.nta:silver_hoe.name=Silver Hoe
+item.naberius:titanium_hoe.name=Titanium Hoe
+item.naberius:vibranium_hoe.name=Vibranium Hoe
+item.naberius:adamantium_hoe.name=Adamantium Hoe
+item.naberius:sirium_hoe.name=Sirium Hoe
+item.naberius:demonic_hoe.name=Demon-Steel Hoe
+item.naberius:steel_hoe.name=Steel Hoe
+item.naberius:bronze_hoe.name=Bronze Hoe
+item.naberius:silver_hoe.name=Silver Hoe
 
-item.nta:titanium_pickaxe.name=Titanium Pickaxe
-item.nta:vibranium_pickaxe.name=Vibranium Pickaxe
-item.nta:adamantium_pickaxe.name=Adamantium Pickaxe
-item.nta:sirium_pickaxe.name=Sirium Pickaxe
-item.nta:demonic_pickaxe.name=Demon-Steel Pickaxe
-item.nta:steel_pickaxe.name=Steel Pickaxe
-item.nta:bronze_pickaxe.name=Bronze Pickaxe
-item.nta:silver_pickaxe.name=Silver Pickaxe
+item.naberius:titanium_pickaxe.name=Titanium Pickaxe
+item.naberius:vibranium_pickaxe.name=Vibranium Pickaxe
+item.naberius:adamantium_pickaxe.name=Adamantium Pickaxe
+item.naberius:sirium_pickaxe.name=Sirium Pickaxe
+item.naberius:demonic_pickaxe.name=Demon-Steel Pickaxe
+item.naberius:steel_pickaxe.name=Steel Pickaxe
+item.naberius:bronze_pickaxe.name=Bronze Pickaxe
+item.naberius:silver_pickaxe.name=Silver Pickaxe
 
-item.nta:titanium_shovel.name=Titanium Shovel
-item.nta:vibranium_shovel.name=Vibranium Shovel
-item.nta:adamantium_shovel.name=Adamantium Shovel
-item.nta:sirium_shovel.name=Sirium Shovel
-item.nta:demonic_shovel.name=Demon-Steel Shovel
-item.nta:steel_shovel.name=Steel Shovel
-item.nta:bronze_shovel.name=Bronze Shovel
-item.nta:silver_shovel.name=Silver Shovel
+item.naberius:titanium_shovel.name=Titanium Shovel
+item.naberius:vibranium_shovel.name=Vibranium Shovel
+item.naberius:adamantium_shovel.name=Adamantium Shovel
+item.naberius:sirium_shovel.name=Sirium Shovel
+item.naberius:demonic_shovel.name=Demon-Steel Shovel
+item.naberius:steel_shovel.name=Steel Shovel
+item.naberius:bronze_shovel.name=Bronze Shovel
+item.naberius:silver_shovel.name=Silver Shovel
 
-item.nta:titanium_sword.name=Titanium Sword
-item.nta:vibranium_sword.name=Vibranium Sword
-item.nta:adamantium_sword.name=Adamantium Sword
-item.nta:sirium_sword.name=Sirium Sword
-item.nta:demonic_sword.name=Demon-Steel Sword
-item.nta:steel_sword.name=Steel Sword
-item.nta:bronze_sword.name=Bronze Sword
-item.nta:silver_sword.name=Silver Sword
+item.naberius:titanium_sword.name=Titanium Sword
+item.naberius:vibranium_sword.name=Vibranium Sword
+item.naberius:adamantium_sword.name=Adamantium Sword
+item.naberius:sirium_sword.name=Sirium Sword
+item.naberius:demonic_sword.name=Demon-Steel Sword
+item.naberius:steel_sword.name=Steel Sword
+item.naberius:bronze_sword.name=Bronze Sword
+item.naberius:silver_sword.name=Silver Sword
 
 item.titanium_hammer.name=Titanium Hammer
 item.vibranium_hammer.name=Vibranium Hammer

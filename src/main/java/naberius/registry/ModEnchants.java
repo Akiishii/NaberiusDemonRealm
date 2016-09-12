@@ -36,13 +36,13 @@ public class ModEnchants {
 	}
 	
 	public static void performAction(String enchantmentName, Entity entity, Event baseEvent) {
-		Optional<EnchantmentBase> ntaEnchantment = getByName(enchantmentName);
-		if (ntaEnchantment.isPresent())
-			ntaEnchantment.get().performAction(entity, baseEvent);
+		Optional<EnchantmentBase> naberiusEnchantment = getByName(enchantmentName);
+		if (naberiusEnchantment.isPresent())
+			naberiusEnchantment.get().performAction(entity, baseEvent);
 	}
 
 	private static Optional<EnchantmentBase> getByName(String enchantmentName) {
-		return EnchantmentBase.ntaEnchantments.stream().filter(enchantment -> enchantment.getName().replaceFirst("enchantment\\.","").equals(enchantmentName)).findFirst();
+		return EnchantmentBase.naberiusEnchantments.stream().filter(enchantment -> enchantment.getName().replaceFirst("enchantment\\.","").equals(enchantmentName)).findFirst();
 	}
 	
 }

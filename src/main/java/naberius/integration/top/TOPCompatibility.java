@@ -23,7 +23,7 @@ public class TOPCompatibility {
         if (registered)
             return;
         registered = true;
-        FMLInterModComms.sendFunctionMessage("theoneprobe", "getTheOneProbe", "nta.integration.top.TOPCompatibility$GetTheOneProbe");
+        FMLInterModComms.sendFunctionMessage("theoneprobe", "getTheOneProbe", "naberius.integration.top.TOPCompatibility$GetTheOneProbe");
     }
 
 
@@ -39,7 +39,7 @@ public class TOPCompatibility {
             probe.registerProvider(new IProbeInfoProvider() {
                 @Override
                 public String getID() {
-                    return "nta:default";
+                    return "naberius:default";
                 }
 
                 @Override

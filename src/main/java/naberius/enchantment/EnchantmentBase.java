@@ -18,12 +18,12 @@ import net.minecraftforge.fml.common.eventhandler.Event;
 
 public abstract class EnchantmentBase extends Enchantment{
 
-	public static List<EnchantmentBase> ntaEnchantments = Lists.newArrayList();
+	public static List<EnchantmentBase> naberiusEnchantments = Lists.newArrayList();
 	
 	protected EnchantmentBase(String name, Rarity rarityIn, EnumEnchantmentType typeIn, EntityEquipmentSlot... slots) {
 		super(rarityIn, typeIn, slots);
 		this.setName(name);
-		ntaEnchantments.add(this);
+		naberiusEnchantments.add(this);
 		
 	}
 	

@@ -10,7 +10,7 @@ import mezz.jei.api.IModPlugin;
 import mezz.jei.api.IModRegistry;
 import net.minecraft.item.ItemStack;
 
-public class NTAPlugin implements IModPlugin{
+public class NaberiusPlugin implements IModPlugin{
 
 	public static IJeiHelpers jeiHelper;
 	public static List<ItemStack> disabledItems = Lists.newArrayList();

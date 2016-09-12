@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nta:items/demon_flesh"
+    "layer0": "naberius:items/demon_flesh"
   }
 }

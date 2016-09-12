@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nta:items/ingot_vibranium"
+    "layer0": "naberius:items/ingot_vibranium"
   }
 }

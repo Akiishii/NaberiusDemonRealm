@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "nta:items/vibranium_sword"
+        "layer0": "naberius:items/vibranium_sword"
     }
 }

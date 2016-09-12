@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "nta:items/silver_hoe"
+        "layer0": "naberius:items/silver_hoe"
     }
 }

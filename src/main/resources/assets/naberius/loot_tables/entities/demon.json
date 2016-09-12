@@ -1,12 +1,12 @@
 {
   "pools": [
     {
-      "name": "nta:demon",
+      "name": "naberius:demon",
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "nta:demon_flesh",
+          "name": "naberius:demon_flesh",
           "weight": 1,
           "functions": [
             {
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "name": "nta:demon",
+      "name": "naberius:demon",
       "conditions": [
         {
           "condition": "killed_by_player"

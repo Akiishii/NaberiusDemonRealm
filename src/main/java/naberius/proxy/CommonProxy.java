@@ -31,7 +31,7 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent e){
 		
 		File directory = e.getModConfigurationDirectory();
-		config = new Configuration(new File(directory.getPath(), "nta.cfg"));
+		config = new Configuration(new File(directory.getPath(), "naberius.cfg"));
 		NaberiusConfig.readConfig();
 				
 		ModItems.init();

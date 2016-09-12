@@ -21,18 +21,18 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 @Mod(modid = NaberiusCore.ModID, name = NaberiusCore.Name, dependencies = "required-after:Forge@[" + NaberiusCore.MIN_FORGE_VER + ",);required-after:McJtyLib@[" + NaberiusCore.MIN_MCJTYLIB_VER + ",)", version = NaberiusCore.VersionFull, acceptedMinecraftVersions = "[1.10,1.11)")
 public class NaberiusCore implements ModBase {
 
-	public static final String ModID = "nta";
+	public static final String ModID = "naberius";
 	public static final String SnapshotVersion = "snapshot_1a";
 	public static final String VersionFull = "0.0.1_alpha_" + SnapshotVersion;
 	public static final String Version = "0.0.1";
-	public static final String Name = "New Tool Age";
+	public static final String Name = "Naberius - The Demon Realm";
 	public static final String MIN_FORGE_VER = "12.18.1.2079";
 	public static final String MIN_MCJTYLIB_VER = "1.10-1.9.9";
 
-	@SidedProxy(clientSide = "nta.proxy.ClientProxy", serverSide = "nta.proxy.ServerProxy")
+	@SidedProxy(clientSide = "naberius.proxy.ClientProxy", serverSide = "naberius.proxy.ServerProxy")
 	public static CommonProxy PROXY;
 
-	@Mod.Instance("nta")
+	@Mod.Instance("naberius")
 	public static NaberiusCore INSTANCE;
 
 	public static Logger logger;

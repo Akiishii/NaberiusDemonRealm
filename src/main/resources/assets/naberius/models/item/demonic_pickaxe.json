@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "nta:items/demonic_pickaxe"
+        "layer0": "naberius:items/demonic_pickaxe"
     }
 }

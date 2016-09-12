@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "nta:items/vibranium_shovel"
+        "layer0": "naberius:items/vibranium_shovel"
     }
 }

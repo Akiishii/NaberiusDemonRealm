@@ -13,7 +13,7 @@ import net.minecraftforge.fml.client.registry.IRenderFactory;
 public class RenderDemon extends RenderLiving<EntityDemon>{
 
 	
-	private ResourceLocation mobTexture = new ResourceLocation("nta:textures/entity/demon.png");
+	private ResourceLocation mobTexture = new ResourceLocation("naberius:textures/entity/demon.png");
 	
 	public static final Factory FACTORY = new Factory();
 

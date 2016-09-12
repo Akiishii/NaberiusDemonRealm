@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nta:items/nugget_tin"
+    "layer0": "naberius:items/nugget_tin"
   }
 }

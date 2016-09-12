@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "nta:ore_copper" }
+        "normal": { "model": "naberius:ore_copper" }
     }
 }

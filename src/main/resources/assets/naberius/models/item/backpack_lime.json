@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "nta:items/backpack_lime"
+    "layer0": "naberius:items/backpack_lime"
   }
 }

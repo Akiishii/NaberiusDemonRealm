@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "nta:items/sirium_axe"
+        "layer0": "naberius:items/sirium_axe"
     }
 }
