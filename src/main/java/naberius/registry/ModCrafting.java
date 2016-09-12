@@ -1,5 +1,9 @@
 package naberius.registry;
 
+import org.apache.logging.log4j.Level;
+
+import naberius.NaberiusCore;
+import naberius.config.NaberiusConfig;
 import naberius.item.ItemIngot;
 import naberius.item.ItemNugget;
 import net.minecraft.init.Enchantments;
@@ -10,13 +14,21 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModCrafting {
 
 	public static void init(){
-		
-		crafting();
-		smelting();
+		if(NaberiusConfig.HARDCORE_RECIPES){
+			NaberiusCore.logger.warn(Level.WARN + "NO HARDCORE RECIPES DEFINED IN THIS VERSION");
+			craftingN();
+			smelting();
+		}else{
+			craftingN();
+			smelting();
+		}
+	}
+	
+	private static void craftingH(){
 		
 	}
 	
-	private static void crafting() {
+	private static void craftingN() {
 
 		// Titanium
 		ItemStack titanium_axe = new ItemStack(ModItems.TITANIUM_AXE);

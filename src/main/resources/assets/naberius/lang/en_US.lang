@@ -31,6 +31,7 @@ enchantment.devourer=Devourer
 
 //Entities
 entity.naberius.Demon.name=Demon
+entity.naberius.GDemon.name=Greater Demon
 
 //GUI
 

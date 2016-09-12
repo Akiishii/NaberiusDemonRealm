@@ -14,6 +14,7 @@ public class NaberiusConfig {
 	private static final String CATEGORY_GUI = "gui";
 
 	public static boolean RETROGEN = false;
+	public static boolean HARDCORE_RECIPES;
 	
 	private static int modGUIIndex = 0; 
 	
@@ -43,6 +44,7 @@ public class NaberiusConfig {
 	private static void initGeneralConfig(Configuration cfg) {
 
 		cfg.addCustomCategoryComment(CATEGORY_GENERAL, "General configuration");
+		HARDCORE_RECIPES = cfg.getBoolean("hardcoreRecipes", CATEGORY_GENERAL, false, "Set to true if you want to have hardcore Recipes");
 		
 	}
 	
