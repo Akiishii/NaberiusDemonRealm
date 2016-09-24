@@ -4,7 +4,7 @@ package naberius.world;
 import java.util.ArrayDeque;
 import java.util.Random;
 
-import naberius.registry.ModBlocks;
+import naberius.init.BlockRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.state.pattern.BlockMatcher;
@@ -34,11 +34,11 @@ public class NTAWorldGenerator implements IWorldGenerator {
 
 		switch (world.provider.getDimension()) {
 		case 0: 
-			addOreSpawn(ModBlocks.ORE_TITANIUM.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 2, 3, 4, 1, 20);
-			addOreSpawn(ModBlocks.ORE_VIBRANIUM.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 2, 3, 8, 1, 20);
-			addOreSpawn(ModBlocks.ORE_SILVER.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 3, 5, 10, 20, 40);
-			addOreSpawn(ModBlocks.ORE_COPPER.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 4, 6, 20, 30, 64);
-			addOreSpawn(ModBlocks.ORE_TIN.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 4, 6, 20, 30, 64);
+			addOreSpawn(BlockRegistry.ORE_TITANIUM.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 2, 3, 4, 1, 20);
+			addOreSpawn(BlockRegistry.ORE_VIBRANIUM.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 2, 3, 8, 1, 20);
+			addOreSpawn(BlockRegistry.ORE_SILVER.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 3, 5, 10, 20, 40);
+			addOreSpawn(BlockRegistry.ORE_COPPER.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 4, 6, 20, 30, 64);
+			addOreSpawn(BlockRegistry.ORE_TIN.getDefaultState(), Blocks.STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 4, 6, 20, 30, 64);
 		break;
 	
 		case 1:
@@ -48,7 +48,7 @@ public class NTAWorldGenerator implements IWorldGenerator {
 			int y = 20 + rand.nextInt(170);
 			int z1 = actualZ + rand.nextInt(16);
 			
-			addOreSpawn(ModBlocks.ORE_SIRIUM.getDefaultState(), Blocks.END_STONE.getDefaultState(), world, rand, actualX, actualZ, 4, 5, 10, 1, 70);
+			addOreSpawn(BlockRegistry.ORE_SIRIUM.getDefaultState(), Blocks.END_STONE.getDefaultState(), world, rand, actualX, actualZ, 4, 5, 10, 1, 70);
 		break;
 		
 		case -1:
@@ -56,7 +56,7 @@ public class NTAWorldGenerator implements IWorldGenerator {
 		break;
 		
 		case 100:
-			addOreSpawn(ModBlocks.ORE_ADAMANTIUM.getDefaultState(), ModBlocks.BLOCK_DEMON_STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 2, 4, 50, 5, 256);
+			addOreSpawn(BlockRegistry.ORE_ADAMANTIUM.getDefaultState(), BlockRegistry.BLOCK_DEMON_STONE.getDefaultState(), world, rand, chunkX * 16, chunkZ * 16, 2, 4, 50, 5, 256);
 		break;
 		}
 	}

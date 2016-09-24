@@ -1,7 +1,8 @@
 package naberius.dimension.demon;
 
 import naberius.config.NaberiusConfig;
-import naberius.registry.*;
+import naberius.init.BiomeRegistry;
+import naberius.init.DimensionRegistry;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.DimensionType;
@@ -17,13 +18,13 @@ public class DemonWorldProvider extends WorldProviderHell {
 
 	@Override
 	public void createBiomeProvider() {
-		this.biomeProvider = new BiomeProviderSingle(ModBiomes.demonBiome);
-		this.setDimension(NaberiusConfig.dimensionID);
+		this.biomeProvider = new BiomeProviderSingle(BiomeRegistry.demonBiome);
+		this.setDimension(NaberiusConfig.DIMENSIONID);
 	}
 	
 	@Override
 	public String getSaveFolder() {
-		return "DIM-" + NaberiusConfig.dimensionID;
+		return "DIM-" + NaberiusConfig.DIMENSIONID;
 	}
 		
 	@Override
@@ -58,7 +59,7 @@ public class DemonWorldProvider extends WorldProviderHell {
 
 	@Override
 	public DimensionType getDimensionType() {
-		return ModDimensions.demonDimension;
+		return DimensionRegistry.demonDimension;
 	}
 	
 }

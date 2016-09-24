@@ -1,12 +1,18 @@
 package naberius;
 
+import java.util.Map;
+
+import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.Logger;
+
+import com.google.common.collect.Maps;
 
 import mcjty.lib.base.ModBase;
 import naberius.commands.TeleporterCommand;
 import naberius.gui.GuiItemManual;
+import naberius.init.ItemRegistry;
 import naberius.proxy.CommonProxy;
-import naberius.registry.ModItems;
+import naberius.utils.LocalizationHelper;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
@@ -18,7 +24,9 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
-@Mod(modid = NaberiusCore.ModID, name = NaberiusCore.Name, dependencies = "required-after:Forge@[" + NaberiusCore.MIN_FORGE_VER + ",);required-after:McJtyLib@[" + NaberiusCore.MIN_MCJTYLIB_VER + ",)", version = NaberiusCore.VersionFull, acceptedMinecraftVersions = "[1.10,1.11)")
+@Mod(modid = NaberiusCore.ModID, name = NaberiusCore.Name, dependencies = "required-after:Forge@["
+		+ NaberiusCore.MIN_FORGE_VER + ",);required-after:McJtyLib@[" + NaberiusCore.MIN_MCJTYLIB_VER
+		+ ",)", version = NaberiusCore.VersionFull, acceptedMinecraftVersions = "[1.10,1.11)")
 public class NaberiusCore implements ModBase {
 
 	public static final String ModID = "naberius";
@@ -28,6 +36,7 @@ public class NaberiusCore implements ModBase {
 	public static final String Name = "Naberius - The Demon Realm";
 	public static final String MIN_FORGE_VER = "12.18.1.2079";
 	public static final String MIN_MCJTYLIB_VER = "1.10-1.9.9";
+	public static final String MCVersion = "1.10.2";
 
 	@SidedProxy(clientSide = "naberius.proxy.ClientProxy", serverSide = "naberius.proxy.ServerProxy")
 	public static CommonProxy PROXY;
@@ -35,13 +44,17 @@ public class NaberiusCore implements ModBase {
 	@Mod.Instance("naberius")
 	public static NaberiusCore INSTANCE;
 
+	private final Map<String, LocalizationHelper> locHelpers = Maps.newHashMap();
+
+	public static LocalizationHelper localHelper;
+	
 	public static Logger logger;
 
 	public final CreativeTabs tab = new CreativeTabs(ModID) {
 
 		@Override
 		public ItemStack getIconItemStack() {
-			return new ItemStack(ModItems.DEMONIC_SWORD);
+			return new ItemStack(ItemRegistry.DEMONIC_SWORD);
 		}
 
 		@Override
@@ -53,17 +66,26 @@ public class NaberiusCore implements ModBase {
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
-		logger = e.getModLog();
+
+		logger = e. getModLog();
+		
+		localHelper = new LocalizationHelper(ModID).setReplaceAmpersand(true);
+		NaberiusCore.INSTANCE.registerLocalizationHelperForMod(ModID, localHelper);
+		
 		PROXY.preInit(e);
+		
+		
 	}
 
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent e) {
+		
 		PROXY.init(e);
 	}
 
 	@Mod.EventHandler
 	public void postInit(FMLPostInitializationEvent e) {
+		
 		PROXY.postInit(e);
 	}
 
@@ -84,6 +106,16 @@ public class NaberiusCore implements ModBase {
 		player.openGui(NaberiusCore.INSTANCE, bookIndex, player.worldObj, (int) player.posX, (int) player.posY,
 				(int) player.posZ);
 
+	}
+
+	public LocalizationHelper getLocalizationHelperForMod(String modId) {
+
+		return locHelpers.get(modId.toLowerCase());
+	}
+
+	public void registerLocalizationHelperForMod(String modId, LocalizationHelper loc) {
+
+		locHelpers.put(modId.toLowerCase(), loc);
 	}
 
 }

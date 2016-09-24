@@ -1,0 +1,8 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "naberius:blocks/HellForge_Top_On",
+    "front": "naberius:blocks/HellForge_Front_On",
+    "side": "naberius:blocks/metal_demon"
+  }
+}

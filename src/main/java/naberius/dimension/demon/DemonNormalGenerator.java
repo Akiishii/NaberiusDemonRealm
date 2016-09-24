@@ -2,7 +2,7 @@ package naberius.dimension.demon;
 
 import java.util.Random;
 
-import naberius.registry.ModBlocks;
+import naberius.init.BlockRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
@@ -206,7 +206,7 @@ public class DemonNormalGenerator {
                                 if (height < 2) {
                                     primer.setBlockState(x4 * 4 + x, height32 * 8 + h, z4 * 4 + z, Blocks.BEDROCK.getDefaultState());
                                 } else if ((d15 += d16) > 0.0D) {
-                                    primer.setBlockState(x4 * 4 + x, height32 * 8 + h, z4 * 4 + z, ModBlocks.BLOCK_DEMON_STONE.getDefaultState());
+                                    primer.setBlockState(x4 * 4 + x, height32 * 8 + h, z4 * 4 + z, BlockRegistry.BLOCK_DEMON_STONE.getDefaultState());
                                 }
                             }
 

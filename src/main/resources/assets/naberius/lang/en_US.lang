@@ -12,7 +12,7 @@ block.naberius:metal_titanium.name=Block of Titanium
 block.naberius:metal_vibranium.name=Block of Vibranium
 block.naberius:metal_adamantium.name=Block of Adamantium
 block.naberius:metal_sirium.name=Block of Sirium
-block.naberius:metal_demon.name=Block of Demon Steel
+block.naberius:metal_demon.name=Block of Demon-Steel
 block.naberius:metal_silver.name=Block of Silver
 block.naberius:metal_steel.name=Block of Steel
 block.naberius:metal_bronze.name=Block of Bronze
@@ -22,16 +22,32 @@ block.naberius:metal_tin.name=Block of Tin
 block.naberius:block_demon_dirt.name=Demon Dirt
 block.naberius:block_demon_stone.name=Demon Stone
 
+tile.HellForge.name=Hell Forge
+
 //Creative Tab
 itemGroup.naberius=Naberius - The Demon Realm
+
+//Drops
+
+item.naberius:demon_flesh.name=Demon Flesh
+item.naberius:demon_pearl.name=Demon Pearl
+item.naberius:demon_eye.name=Demon Eye
+item.naberius:holy_water.name=Holy Water
 
 //Enchants
 enchantment.autosmelt=Auto Smelt
 enchantment.devourer=Devourer
+enchantment.holy=Holy
 
 //Entities
 entity.naberius.Demon.name=Demon
 entity.naberius.GDemon.name=Greater Demon
+entity.naberius.Imp.name=Imp
+entity.naberius.ArchDemon.name=Arch Demon
+entity.naberius.DemonKing.name=Demon King
+entity.naberius.DemonMaster.name=Demon Master
+entity.naberius.DemonSummoner.name=Demon Summoner
+entity.naberius.Bael.name=King Bael - Ruler of the Eastern Hell
 
 //GUI
 
@@ -58,6 +74,17 @@ item.naberius:nugget.7.name=Bronze Nugget
 item.naberius:nugget.8.name=Copper Nugget
 item.naberius:nugget.9.name=Tin Nugget
 
+item.naberius:plate.0.name=Titanium Plate
+item.naberius:plate.1.name=Vibranium Plate
+item.naberius:plate.2.name=Adamantium Plate
+item.naberius:plate.3.name=Sirium Plate
+item.naberius:plate.4.name=Demon-Steel Plate
+item.naberius:plate.5.name=Steel Plate
+item.naberius:plate.6.name=Bronze Plate
+item.naberius:plate.7.name=Silver Plate
+item.naberius:plate.8.name=Copper Plate
+item.naberius:plate.9.name=Tin Plate
+
 item.naberius:core.0.name=Titanium Core
 item.naberius:core.1.name=Vibranium Core
 item.naberius:core.2.name=Adamantium Core
@@ -67,7 +94,9 @@ item.naberius:core.5.name=Steel Core
 item.naberius:core.6.name=Bronze Core
 item.naberius:core.7.name=Silver Core
 
-item.naberius:demon_flesh.name=Demon Flesh
+item.naberius:demonic_stone.name=Demonic Stone
+item.naberius:cleansed_porter.name=Cleansed Demonic Pendant
+item.naberius:corrupted_porter.name=Corrupted Demonic Pendant
 
 item.naberius:manual.name=Naberius Manual
 
@@ -86,6 +115,10 @@ item.naberius:backpack.11.name=Light Gray Backpack
 item.naberius:backpack.12.name=Purple Backpack
 item.naberius:backpack.13.name=Cyan Backpack
 item.naberius:backpack.14.name=Magenta Backpack
+
+//Misc
+jei.naberius.recipe.HellForge=Hell Forge (Naberius)
+jei.naberius.desc.HellForge=The Hell Forge was crafted by an Arch-Demon named King Bael. It was once used to forge weapons for Lucifer's army. Lucifer's goal is to conquer the world and send all humans into the purgatory.
 
 //Tools
 item.naberius:titanium_axe.name=Titanium Axe
@@ -132,6 +165,8 @@ item.naberius:demonic_sword.name=Demon-Steel Sword
 item.naberius:steel_sword.name=Steel Sword
 item.naberius:bronze_sword.name=Bronze Sword
 item.naberius:silver_sword.name=Silver Sword
+
+item.naberius:tool_hammer.name=Blacksmith Hammer
 
 item.titanium_hammer.name=Titanium Hammer
 item.vibranium_hammer.name=Vibranium Hammer

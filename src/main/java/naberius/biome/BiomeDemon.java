@@ -3,15 +3,15 @@ package naberius.biome;
 import java.awt.Color;
 
 import naberius.entities.EntityDemon;
-import naberius.registry.ModBlocks;
+import naberius.init.BlockRegistry;
 import net.minecraftforge.common.BiomeManager.BiomeType;
 
 public class BiomeDemon extends BaseBiome{
 	
 	public BiomeDemon() {
 		super(new BiomeProperties("Demon Realm").setRainDisabled().setHeightVariation(0.5F).setTemperature(0.4F).setWaterColor(Color.RED.getRGB()),"Demon Realm");
-		this.topBlock = ModBlocks.BLOCK_DEMON_DIRT.getDefaultState();
-		this.fillerBlock = ModBlocks.BLOCK_DEMON_STONE.getDefaultState();
+		this.topBlock = BlockRegistry.BLOCK_DEMON_DIRT.getDefaultState();
+		this.fillerBlock = BlockRegistry.BLOCK_DEMON_STONE.getDefaultState();
 		
 		this.spawnableCaveCreatureList.clear();
 		this.spawnableCreatureList.clear();

@@ -66,7 +66,7 @@ public class TeleporterCommand extends CommandBase{
 		}
 		
 		if(sender instanceof EntityPlayer){
-			if(dim == 0 || dim == NaberiusConfig.dimensionID){
+			if(dim == 0 || dim == NaberiusConfig.DIMENSIONID){
 				CustomTeleporter.teleportToDimension((EntityPlayer) sender, dim, 0, 100, 0);
 			}else{
 				sender.addChatMessage(new TextComponentString(TextFormatting.RED + "You can only teleport between the Demon Dimension and the Overworld!!!!"));

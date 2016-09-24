@@ -28,7 +28,7 @@ repositories {
     }
 }
 
-version = "1.10.2-0.0.1a"
+version = "1.10.2-0.0.1d"
 group= "naberius.NaberiusCore"
 archivesBaseName = "naberius"
 

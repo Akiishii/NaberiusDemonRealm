@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north_off": { "model": "naberius:HellForge_Off" },
+    "facing=south_off": { "model": "naberius:HellForge_Off", "y": 180 },
+    "facing=west_off":  { "model": "naberius:HellForge_Off", "y": 270 },
+    "facing=east_off":  { "model": "naberius:HellForge_Off", "y": 90 },
+    "facing=north_on": { "model": "naberius:HellForge_On" },
+    "facing=south_on": { "model": "naberius:HellForge_On", "y": 180 },
+    "facing=west_on":  { "model": "naberius:HellForge_On", "y": 270 },
+    "facing=east_on":  { "model": "naberius:HellForge_On", "y": 90 }
+  }
+}

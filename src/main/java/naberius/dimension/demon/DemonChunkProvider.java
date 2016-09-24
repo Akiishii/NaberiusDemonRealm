@@ -11,6 +11,7 @@ import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
 import naberius.entities.EntityDemon;
+import naberius.entities.EntityGDemon;
 import net.minecraft.entity.EnumCreatureType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
@@ -29,7 +30,7 @@ public class DemonChunkProvider implements IChunkGenerator {
     private Random random;
     private Biome[] biomesForGeneration;
 
-    private List<Biome.SpawnListEntry> mobs = Lists.newArrayList(new Biome.SpawnListEntry(EntityDemon.class, 100, 2, 2));
+    private List<Biome.SpawnListEntry> mobs = Lists.newArrayList(new Biome.SpawnListEntry(EntityDemon.class, 50, 1, 4), new Biome.SpawnListEntry(EntityGDemon.class, 20, 1, 3));
 
     private MapGenBase caveGenerator = new MapGenCaves();
     private DemonNormalGenerator terraingen = new DemonNormalGenerator();
