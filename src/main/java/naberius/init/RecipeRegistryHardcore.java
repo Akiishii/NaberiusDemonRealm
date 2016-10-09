@@ -192,6 +192,12 @@ public class RecipeRegistryHardcore {
 		
 	}
 
+	private static void normalDemonCrafting(){
+	
+		
+		
+	}
+	
 	private static void hardcoreEnchanting() {
 
 	}

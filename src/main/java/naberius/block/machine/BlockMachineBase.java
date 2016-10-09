@@ -1,4 +1,4 @@
-package naberius.block;
+package naberius.block.machine;
 
 import java.util.List;
 import java.util.Random;

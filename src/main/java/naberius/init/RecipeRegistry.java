@@ -192,7 +192,7 @@ public class RecipeRegistry {
 		NaberiusUtils.addHellForgeRecipe("Demon-Eye", new ItemStack(ItemRegistry.DEMON_EYE), 1, 800, 0.1F, "materialDemonPearl*1", "nuggetDemon*1");
 		
 	}
-		
+	
 	private static void normalEnchanting(){
 		
 		ItemStack silver_sword_one = new ItemStack(ItemRegistry.SILVER_SWORD);

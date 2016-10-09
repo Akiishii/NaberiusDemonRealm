@@ -41,4 +41,5 @@ public class NaberiusAPI {
 		newOutput.stackSize = outputCount;
 		addHellForgeRecipe(newOutput, cookTime, experience, inputs);
 	}
+
 }

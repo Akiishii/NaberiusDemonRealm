@@ -5,16 +5,19 @@ import naberius.init.EntityRegister;
 import naberius.init.ItemRegistry;
 import naberius.item.ItemBackpack;
 import naberius.item.ItemCore;
+import naberius.item.armor.ItemAdamantiumArmor;
+import naberius.item.armor.ItemBronzeArmor;
+import naberius.item.armor.ItemDemonicArmor;
+import naberius.item.armor.ItemSiriumArmor;
+import naberius.item.armor.ItemSteelArmor;
 import naberius.item.material.ItemIngot;
 import naberius.item.material.ItemNugget;
 import naberius.item.material.ItemPlate;
-import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelBakery;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.fluids.Fluid;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -228,6 +231,30 @@ public class ClientProxy extends CommonProxy{
 		
 		ModelLoader.setCustomModelResourceLocation(ItemRegistry.HAMMER, 0, new ModelResourceLocation("naberius:hammer", "inventory"));
 		
+		ModelLoader.setCustomModelResourceLocation(ItemBronzeArmor.bronze_helmet, 0, new ModelResourceLocation("naberius:bronze_helmet", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemBronzeArmor.bronze_chest, 0, new ModelResourceLocation("naberius:bronze_chest", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemBronzeArmor.bronze_leggs, 0, new ModelResourceLocation("naberius:bronze_leggs", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemBronzeArmor.bronze_boots, 0, new ModelResourceLocation("naberius:bronze_boots", "inventory"));
+
+		ModelLoader.setCustomModelResourceLocation(ItemSteelArmor.steel_helmet, 0, new ModelResourceLocation("naberius:steel_helmet", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemSteelArmor.steel_chest, 0, new ModelResourceLocation("naberius:steel_chest", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemSteelArmor.steel_leggs, 0, new ModelResourceLocation("naberius:steel_leggs", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemSteelArmor.steel_boots, 0, new ModelResourceLocation("naberius:steel_boots", "inventory"));
+		
+		ModelLoader.setCustomModelResourceLocation(ItemAdamantiumArmor.adamantium_helmet, 0, new ModelResourceLocation("naberius:adamantium_helmet", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemAdamantiumArmor.adamantium_chest, 0, new ModelResourceLocation("naberius:adamantium_chest", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemAdamantiumArmor.adamantium_leggs, 0, new ModelResourceLocation("naberius:adamantium_leggs", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemAdamantiumArmor.adamantium_boots, 0, new ModelResourceLocation("naberius:adamantium_boots", "inventory"));
+		
+		ModelLoader.setCustomModelResourceLocation(ItemSiriumArmor.sirium_helmet, 0, new ModelResourceLocation("naberius:sirium_helmet", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemSiriumArmor.sirium_chest, 0, new ModelResourceLocation("naberius:sirium_chest", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemSiriumArmor.sirium_leggs, 0, new ModelResourceLocation("naberius:sirium_leggs", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemSiriumArmor.sirium_boots, 0, new ModelResourceLocation("naberius:sirium_boots", "inventory"));
+		
+		ModelLoader.setCustomModelResourceLocation(ItemDemonicArmor.demonic_helmet, 0, new ModelResourceLocation("naberius:demonic_helmet", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemDemonicArmor.demonic_chest, 0, new ModelResourceLocation("naberius:demonic_chest", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemDemonicArmor.demonic_leggs, 0, new ModelResourceLocation("naberius:demonic_leggs", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(ItemDemonicArmor.demonic_boots, 0, new ModelResourceLocation("naberius:demonic_boots", "inventory"));
 		
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(BlockRegistry.BLOCK_DEMON_DIRT), 0, new ModelResourceLocation("naberius:block_demon_dirt", "inventory"));
 		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(BlockRegistry.BLOCK_DEMON_STONE), 0, new ModelResourceLocation("naberius:block_demon_stone", "inventory"));

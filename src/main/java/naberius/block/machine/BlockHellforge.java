@@ -1,4 +1,4 @@
-package naberius.block;
+package naberius.block.machine;
 
 import naberius.NaberiusCore;
 import naberius.config.NaberiusConfig;

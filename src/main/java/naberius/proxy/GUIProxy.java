@@ -30,7 +30,7 @@ public class GUIProxy implements IGuiHandler {
 				return new ContainerHellForge(player.inventory, tileForge);
 			}
 
-		} else if (ID == NaberiusConfig.GUI_BACKPACK) {
+		}else if (ID == NaberiusConfig.GUI_BACKPACK) {
 			return new ContainerBackpack(player.inventory, new InventoryBackpack(player.inventory.getCurrentItem()),
 					player);
 		}
@@ -49,7 +49,7 @@ public class GUIProxy implements IGuiHandler {
 
 			return new GuiItemManual(GuiItemManual.MANUAL_MAIN);
 
-		} else if (ID == NaberiusConfig.GUI_HELLFORGE) {
+		}else if (ID == NaberiusConfig.GUI_HELLFORGE) {
 
 			if (tile instanceof TileHellForge) {
 
@@ -58,7 +58,7 @@ public class GUIProxy implements IGuiHandler {
 
 			}
 
-		} else if (ID == NaberiusConfig.GUI_BACKPACK) {
+		}else if (ID == NaberiusConfig.GUI_BACKPACK) {
 
 			return new GuiBackpack(new InventoryBackpack(player.inventory.getCurrentItem()));
 

@@ -67,7 +67,7 @@ public class NaberiusCore implements ModBase {
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 
-		logger = e. getModLog();
+		logger = e.getModLog();
 		
 		localHelper = new LocalizationHelper(ModID).setReplaceAmpersand(true);
 		NaberiusCore.INSTANCE.registerLocalizationHelperForMod(ModID, localHelper);

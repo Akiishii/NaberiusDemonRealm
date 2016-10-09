@@ -9,23 +9,26 @@ import net.minecraftforge.common.config.Configuration;
 
 public class NaberiusConfig {
 
+	//Categories
 	private static final String CATEGORY_GENERAL = "general";
 	private static final String CATEGORY_GEN = "gen";
 	private static final String CATEGORY_DIMENSIONS = "dimensions";
 	private static final String CATEGORY_GUI = "gui";
 
+	//Bools
 	public static boolean RETROGEN = false;
 	public static boolean HARDCORE_RECIPES = true;
-		
-	private static int MODGUIINDEX = 0; 
 	
+	//Ints
 	public static int DIMENSIONID = 100;
+	public static int HAMMER_DURABILITY = 256;
 	
+	//GUI
+	private static int MODGUIINDEX = 0; 
 	public static int GUI_MANUAL = MODGUIINDEX++;
 	public static int GUI_HELLFORGE = MODGUIINDEX++;
+	public static int GUI_CRAFTING = MODGUIINDEX++;
 	public static int GUI_BACKPACK = MODGUIINDEX++;
-	
-	public static int HAMMER_DURABILITY = 256;
 	
 	public static void readConfig(){
 		Configuration cfg = CommonProxy.config;
