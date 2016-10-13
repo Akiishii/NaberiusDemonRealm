@@ -1,4 +1,4 @@
-package naberius.dimension.demon;
+package naberius.dimension.demon.provider;
 
 import static net.minecraftforge.event.terraingen.InitMapGenEvent.EventType.CAVE;
 
@@ -10,6 +10,7 @@ import javax.annotation.Nullable;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 
+import naberius.dimension.demon.generator.DemonNormalGenerator;
 import naberius.entities.EntityDemon;
 import naberius.entities.EntityGDemon;
 import net.minecraft.entity.EnumCreatureType;

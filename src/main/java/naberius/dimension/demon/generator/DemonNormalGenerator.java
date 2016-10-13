@@ -1,4 +1,4 @@
-package naberius.dimension.demon;
+package naberius.dimension.demon.generator;
 
 import java.util.Random;
 

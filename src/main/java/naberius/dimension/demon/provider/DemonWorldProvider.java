@@ -1,4 +1,4 @@
-package naberius.dimension.demon;
+package naberius.dimension.demon.provider;
 
 import naberius.config.NaberiusConfig;
 import naberius.init.BiomeRegistry;
@@ -14,7 +14,7 @@ import net.minecraft.world.chunk.IChunkGenerator;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class DemonWorldProvider extends WorldProviderHell {
+public class DemonWorldProvider extends WorldProvider {
 
 	@Override
 	public void createBiomeProvider() {

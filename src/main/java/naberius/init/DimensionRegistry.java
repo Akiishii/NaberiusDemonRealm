@@ -2,7 +2,7 @@ package naberius.init;
 
 import naberius.NaberiusCore;
 import naberius.config.NaberiusConfig;
-import naberius.dimension.demon.DemonWorldProvider;
+import naberius.dimension.demon.provider.DemonWorldProvider;
 import net.minecraft.world.DimensionType;
 import net.minecraftforge.common.DimensionManager;
 

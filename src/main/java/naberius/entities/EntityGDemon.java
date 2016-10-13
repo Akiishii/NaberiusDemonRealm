@@ -29,8 +29,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 public class EntityGDemon extends EntityMob{
-
-	private static final DataParameter<Boolean> ARMS_RAISED = EntityDataManager.createKey(EntityGDemon.class, DataSerializers.BOOLEAN);
 	
 	public static final ResourceLocation LOOT = new ResourceLocation(NaberiusCore.ModID, "entities/gDemon");
 	

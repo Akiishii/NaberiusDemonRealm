@@ -58,21 +58,6 @@ public class ItemCleansedPorter extends ItemBase {
 		par3EntityPlayer.stopActiveHand();
 	}
 
-	public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving) {
-		if ((entityLiving instanceof EntityPlayer)) {
-			teleport(stack, worldIn, (EntityPlayer) entityLiving);
-		}
-		return stack;
-	}
-
-	public int getMaxItemUseDuration(ItemStack par1ItemStack) {
-		return 25;
-	}
-
-	public EnumAction getItemUseAction(ItemStack par1ItemStack) {
-		return EnumAction.BOW;
-	}
-
 	@SideOnly(Side.CLIENT)
 	public void addInformation(ItemStack par1ItemStack, EntityPlayer par2EntityPlayer, List par3List, boolean par4) {
 		par3List.add("This leads to dimension: " + getDimension(par2EntityPlayer) + ".");
@@ -95,9 +80,9 @@ public class ItemCleansedPorter extends ItemBase {
 		return true;
 	}
 
-	public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn,
-			EnumHand hand) {
+	public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand) {
 		playerIn.setActiveHand(hand);
+		teleport(itemStackIn, worldIn, playerIn);
 		return new ActionResult(EnumActionResult.SUCCESS, itemStackIn);
 	}
 
